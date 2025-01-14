@@ -14,7 +14,7 @@ num1 = 7
 num2 = 0
 num3 = 4
 
-#print(binary_search(arr, num1, num2, num3))
+print(binary_search(arr, num1, num2, num3))
 
 arr1 = [1, 2, 3]
 
@@ -41,7 +41,7 @@ def generate_combinations(arr1, New_number):
     return temp
 
 
-#print(generate_combinations(arr1, New_number))
+print(generate_combinations(arr1, New_number))
 
 """
 def generate_combinations(arr1, New_number):
@@ -68,47 +68,3 @@ print(generate_combinations(arr1, New_number))
 
 
 """
-
-
-import Student
-
-student = Student.Student('yeuda','baza')
-number = 60
-
-
-student.__add__(number)
-student.__add__(80)
-student.__add__(60)
-
-#print(student.Average())
-
-#print(student.sumStudents())
-
-#e= open('Name.txt','w+')
-
-#e.write(' this is my name')
-
-#e.close()
-
-
-#with open ('Name.txt') as f:
-
-    #for line in f:
-        #print(line)
-
-
-arr = [1,2,3,4,5,6,7,8,9]
-
-
-
-def num3(i):
-    if i%2 == 0:
-        return i
-
-
-
-
-
-arr1 = list(filter(num3,arr))
-
-print(arr1)
